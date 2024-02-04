@@ -1,0 +1,709 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page1 #nav1{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #111;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#page1 #nav1 #nav1-part2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+   
+}
+#page1 #nav1 #nav1-part2 h4{
+border: 2px solid #111;
+border-radius: 20px;
+padding: 5px 20px;
+}
+#page1 #nav1 #nav1-part2 h4:hover{
+    background-color: #111;
+    color: aliceblue;
+}
+#page1 #nav1 #nav1-part3 i{
+    border: 2px solid #111;
+    border-radius: 50%;
+    padding: 3px;
+    /* display: flex;
+    gap: 5px; */
+}
+#page1 #nav1 #nav1-part3 i:hover{
+    background-color: #111;
+    color: aliceblue;
+}
+#page1 h1{
+    margin: 20px 150px;
+    font-size: 80px;
+    font-family: "Lethal Slime";
+    color: #111;
+}
+
+#page1 img{
+    height: 600px;
+    margin-left: 7%;
+    margin-top: 0px;
+    width: 86%;
+    object-fit: cover;
+    object-position: center;
+    padding: 10px;
+    border: 4px solid #111;
+}
+
+#page2{
+    height: 90%;
+    width: 100%;
+    /* background: linear-gradient(rgb(138, 138, 202),rgb(37, 37, 73)); */
+    padding: 60px;
+    position: relative;
+}
+#im{
+    height: 100%;
+    width: 37%;
+    /* background-color: #111; */
+    border: 2px solid #111;
+    position: relative;
+}
+#page2 #im img{
+          height: 102%;
+          width: 111%;
+          position: absolute;
+          top: 2%;
+          left: 2%;
+          z-index: 0;
+}
+#page2 #aside1{
+    position: absolute;
+    top: 9%;
+    right: 14%;
+}
+#page2 #aside1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: "Another Danger - Demo";
+    line-height: 74px;
+    letter-spacing: 3px;
+}
+#page2 #aside1 p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+#imm{
+    height: 50%;
+    width: 30%;
+    /* background-color: #111; */
+    border: 2px solid #111;
+    position: relative;
+    left: 70%;
+    bottom: 39%;
+}
+#page2 #imm img{
+          height: 102%;
+          width: 119%;
+          position: absolute;
+          top: 2%;
+          right: 2%;
+}
+#page2 #ex{
+    font-size: 15px;
+    background-color: rgb(81, 175, 81);
+    font-weight: 500;
+    padding: 10px 40px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    display: inline-block;
+    letter-spacing: 0px;
+    z-index: 99999;
+    position: absolute;
+    top: 68%;
+    left: 37%;
+}
+#page2 #ex:hover{
+    background-color: rgb(246, 108, 131);
+    color: white;
+}
+#page3 {
+     height: 90%;
+     width: 100%;
+     /* background-color: aquamarine; */
+     position: relative;
+}
+#page3 h1{
+    font-family: "Gilroy";
+    padding-left: 70px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-decoration: underline;
+    text-align: center;
+    /* letter-spacing: 2px; */
+    word-spacing: 2px;
+    font-style: italic;
+}
+#page3 #mid{
+    background-image: url("https://images.unsplash.com/photo-1682881337762-97c7c8048f06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfENEd3V3WEpBYkV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+}
+#page3 .c1{
+    height: 500px;
+    padding-top: 50px;
+}
+#page3 #mid #img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page3 #text{
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+#page3 #text h4{
+    background-color: rgb(165, 216, 165);
+    padding: 10px 60px;
+    border: 2px solid #111;
+    border-radius: 50%;
+    width: 10%;
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0.5%;
+}
+#page3 #text h4:hover{
+    background-color: #111;
+    color:  rgb(165, 216, 165);
+}
+#page4{
+    width: 100%;
+    height: 85%;
+    position: relative;
+    /* background-color: rgb(71, 95, 87); */
+}
+#page4 #cyy{
+    width: 100%;
+    padding-top: 120px;
+    display: inline-block;
+    margin-top: -2px;
+}
+#page4 #cyy .p1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 120px;
+    padding-top: 20px;
+    border-top: 2px solid #111;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: left;
+}
+#page4 #cyy #d{
+    border-bottom: 2px solid #111;
+}
+ #page4 #cyy #d h1{
+    position: relative;
+}
+#page4 #cyy #d h1::before{
+    content: "LIMITED EDITION";
+    font-size: 15px;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+}
+#page4 #cyy #c h1{
+    position: relative;
+}
+#page4 #cyy #c h1::before{
+    content: "DISNEY GIFT";
+    font-size: 15px;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+}
+#page4 #cyy #b h1{
+    position: relative;
+}
+#page4 #cyy #b h1::before{
+    content: "box set pack";
+    text-transform: uppercase;
+    font-size: 15px;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+}
+#page4 #cyy #a h4{
+    border: 2px solid #111;
+    padding: 10px 20px;
+    border-radius: 50%;
+    transform: rotate(10deg);
+}
+#page4 #cyy #a h1{
+    position: relative;
+}
+#page4 #cyy #a h1::before{
+    content: "LIMITED EDITION";
+    font-size: 15px;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+}
+#page4 img{
+    height: 120px;
+    border: 1px solid #111;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+#page4 #h1{
+    text-align: center;
+    font-family: "Lethal Slime";
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: -28px;
+}
+#page5 {
+    height: 97%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+#page5 #left{
+    height: 100%;
+    width: 50%;
+    /* background-color: #111; */
+}
+#page5 #right{
+    height: 100%;
+    width: 50%;
+    /* background-color: aliceblue; */
+}
+#page5 #left h1{
+    text-align: center;
+    font-family: "Lethal Slime";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 27px;
+    margin-bottom: 45px;
+}
+#page5 #left  p{
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+}
+#page5 #left #i{
+    height: 350px;
+    width: 350px;
+    border: 2px solid #111;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+#page5 #left #i img{
+    object-fit: cover;
+    object-position: center;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 11%;
+    top: 9%;
+}
+#page5 #left #i h3{
+    border: 2.5px solid #111;
+    border-radius: 50%;
+    padding: 9px 38px;
+    display: inline;
+    position: absolute;
+    top: 75%;
+    left: 92%;
+    background-color: rgb(141, 235, 141);
+}
+#page5 #left #i h3:hover{
+    background-color: rgb(195, 64, 86);
+    color: #fff;
+}
+#page5 #right #ii{
+    height: 83%;
+    width: 35%;
+    border: 2px solid #111;
+    position: absolute;
+    left: 62%;
+    top: 10%;
+}
+#page5 #right #ii img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 6%;
+    top: 3%;
+}
+#page5 #as{
+    height: 40px;
+    width: 100%;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    position: absolute;
+    bottom: -28px;
+    left: 0px;
+}
+#page5 #as #footer{
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    white-space: nowrap;
+    width: 100%;
+    margin-right: 15px;
+    /* background-color: #111; */
+    color: #111;
+    overflow-y: hidden; 
+     overflow-x: auto;
+    
+}
+
+#page5 #as #footer h4{
+    display: inline-block;
+    margin-right: 13px;
+    margin: 7px 0;
+    animation-name: amine;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#page5 #as #footer::-webkit-scrollbar{
+    display: none;
+}
+#page5 #as #footer:hover{
+    animation-play-state: paused;
+}
+
+#page6{
+    height: 100%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: 4%;
+    padding-top: 1px;
+    /* padding-left: 60px; */
+    position: relative;
+}
+#page6 h1{
+    margin-top: 45px;
+    font-style: italic;
+    /* font-family: "Another Danger - Demo"; */
+    font-weight: 900;
+    line-height: 39px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-left: 60px;
+}
+#page6 #image{
+    margin-top: 40px;
+    margin-left: 60px;
+      width: 55%;
+      height: 50%;
+      border: 2px solid #111;
+      position: relative;
+}
+#page6 #image img{
+    object-fit: cover;
+    object-position: center;
+    height: 90%;
+    width: 95%;
+    position: absolute;
+    top: 5%;
+    left: 2.5%;
+    border: 2px solid #111;
+}
+#page6 #aside{
+    position: absolute;
+    bottom: 140px;
+    right: 14%;
+}
+#page6 #aside h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    /* font-style: italic; */
+}
+#page6 #aside p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 25px;
+}
+#page6 #circle{
+    height: 100px;
+    width: 100px;
+    border: 6px solid #111;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 16%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page6 h2{
+    font-weight: 900;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 40px;
+}
+#page6  #as{
+    height: 40px;
+    width: 100%;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    position: absolute;
+    bottom: -28px;
+    margin-left: -30px;
+}
+#page6 #footer{
+    /* align-items: center;
+    justify-content: space-between; */
+    white-space: nowrap;
+    width: 100%;
+    padding-top: 3.5px;
+    /* margin-right: 15px; */
+    margin-top: 5px;
+    /* background-color: #111; */
+    overflow-y: hidden; 
+    overflow-x: auto;
+    color: #111;
+    /* margin-left: -5%; */
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+@keyframes amine1 {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 19px));
+    }
+}
+#page6 #footer::-webkit-scrollbar{
+    display: none;
+}
+#page6 #footer h4{
+    margin-right: 6px;
+    display: inline-block;
+    animation-name: amine1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* #page6 #footer::-webkit-scrollbar{
+    display: none; 
+} */
+#page7 {
+    height: 80%;
+    width: 100%;
+    /* background-color: bisque; */
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+/* #page7 img{
+    position: absolute;
+    top: 50px;
+} */
+#page7 #img1{
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #111;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+#page7 #img2{
+    position: absolute;
+    top: 90px;
+    left: 430px;
+    width: 39%;
+    border: 2px solid #111;
+}
+#page7 #img3{
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #111;
+    position: absolute;
+    top: 90px;
+    right: 130px;
+}
+#page7 h5{
+    position: absolute;
+    bottom: 65px;
+    right: 50%;
+    font-size: 20px;
+    font-weight: 100;
+}
+#page8{
+    height: 55%;
+    width: 100%;
+    /* background-color: #7645; */
+    /* padding: 10px 110px; */
+    display: flex;
+    position: relative;
+    /* padding-right: 50px; */
+}
+#page8 #left{
+    height: 70%;
+    width: 50%;
+    padding-top: 40px;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    border-right: 1px solid #111;
+    padding-left: 80px;
+}
+#page8 #right{
+    height: 70%;
+    width: 50%;
+    border-top: 2px solid #111;
+    border-bottom: 2px solid #111;
+    /* border-right: 1px solid #111; */
+    position: relative;
+    padding-left: 50px;
+    padding-right: 150px;
+}
+#page8 #left #div{
+    height: 40px;
+    width: 100%;
+    /* background-color: #434e; */
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+}
+#page8 #left h1{
+    margin-bottom:-10px;
+    margin-left: 30px;
+}
+#page8 #left h2{
+    /* margin-top:120px; */
+    position: absolute;
+    top: 40px;
+    left: 30%;
+    font-size: 34px;
+}
+#page8 td{
+    margin-top: 20px;
+    text-decoration: underline;
+    padding: 10px 25px;
+}
+#page8 #right #nav4{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 20px;
+}
+#page8 #right #nav4 h5{
+    border: 2px solid #111;
+    border-radius: 20px;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: 200;
+}
+#page8 #right #nav4  i{
+    border: 2px solid #111;
+    border-radius: 50%;
+    padding: 4px;
+    margin-left: 80px;
+}
+#page8 #right #nav4  #yy{
+    position: absolute;
+    left: 65px;
+    top: 74px;
+    font-size: 15px;
+    border: 2px solid #111;
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+#page8 #right #nav1{
+    position: absolute;
+    bottom: 50px;
+    padding-bottom: 20px;
+    /* padding-right: 130px; */
+    width: 100%;
+    border-bottom: 2px solid #111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#page8 #right #nav1 img{
+    height: 60px;
+    margin-right: 150px;
+}
+#page8 #right #nav1 h1{
+    font-weight: 900;
+}
+#page8 #right #nav1 p{
+    margin-top: 10px;
+}
+#page8 #footer{
+   position: absolute;
+   bottom: 60px;
+   height: 30px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    
+}
+#page8 #footer h4{
+    margin-top: 3%;
+    margin-right: 15px;
+}
+#page8 #footer span{
+    text-decoration: underline;
+}
+#page8 #footer #cat{
+    display: flex;
+    gap: 20px;
+    font-size: 25px;
+}
+#page8 #footer img{
+    height: 20px;
+}
+@keyframes amine {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-100% - 36px));
+    }
+}
